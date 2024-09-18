@@ -56,8 +56,8 @@ abstract class AppRouter {
     routes: [
       GoRoute(
         path: kSplashScreen,
-        // builder: (context, state) => const SplashScreen(),
-         builder: (context, state) => MainScreen(),
+         builder: (context, state) =>  SplashScreen(),
+        // builder: (context, state) => MainScreen(),
         // builder: (context, state) =>  RoomInfoScreen(),
         // builder: (context, state) =>  PhotoSessionScreen(),
         //builder: (context, state) =>  OrderScreen(),
